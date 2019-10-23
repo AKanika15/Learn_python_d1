@@ -1,0 +1,10 @@
+print("Hello")
+--------------
+import decimal
+i=6.2
+print(i)
+print(type(i))
+j=decimal.Decimal(i) #convert float i to decimal j
+print(j)
+print(type(j))
+--------------------------
